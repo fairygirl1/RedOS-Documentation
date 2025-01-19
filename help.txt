@@ -7,3 +7,8 @@ root@ws:~# vgdisplay
 root@ws:~# lvdisplay
 информацию по физическим томам
 root@ws:~# pvdisplay
+
+DHCP
+Firewalld is not running:
+Открыть брандмауэр с помощью команды `systemctl start firewalld`.
+Проверить статус брандмауэра с помощью команды `systemctl status firewalld`. Если он уже включён, то брандмауэр работает.
