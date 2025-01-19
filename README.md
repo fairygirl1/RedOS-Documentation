@@ -5,3 +5,4 @@
 ### 2. DHCP installation and managing
 [Базовая настройка DHCP](https://redos.red-soft.ru/base/redos-7_3/7_3-network/7_3-dhcp/7_3-first-settings-dhcp/?nocache=1737310705860)
 ### 3. FTP installation and managing
+[Настройка FTP-сервера](https://redos.red-soft.ru/base/redos-7_3/7_3-network/7_3-ftp-server-configuration/?nocache=1737322301754)
