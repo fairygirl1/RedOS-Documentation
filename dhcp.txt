@@ -19,8 +19,6 @@ subnet 10.10.10.0 netmask 255.255.255.0 {
  }
 //////////////////////////////////////////////////////////////
 
-nmcli device show
-
 nano /etc/sysconfig/dhcpd
 
 ////////////////////////////
@@ -54,9 +52,6 @@ ON BOOT="yes"
 
 ///////////////////////////////////////////
 
-nmcli connection show
-
-nmcli connection up <имя интерфейса>
 
 nmcli con mod enp7s0 ipv4.addresses 10.10.10.1 ipv4.gateway <IP внешнего роутера> ipv4.dns <IP внешнего роутера> ipv4.method manual ipv6.method disabled
 
